@@ -1,20 +1,20 @@
 *{
     padding: 0;margin: 0;box-sizing: border-box;font-family: 'Gayathri', sans-serif;
     font-family: 'Kumbh Sans', sans-serif;
-}
-h1{
+  }
+  h1{
     font-weight: bold;text-align: center;margin-top:5rem;
-}
-.news-row{
+  }
+  .news-row{
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width:47rem;
   border-radius: 5px;
   margin:20px auto;
   height:15rem;overflow: hidden;
-}
-
-.news-row:hover {
+  }
+  
+  .news-row:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   } 
   #loader {
@@ -33,11 +33,11 @@ h1{
   @keyframes spin {    
     100% { transform: rotate(360deg); }
   }
-
+  
   .news-card-image img{
-    position:absolute;
-    height: 268px;
-    width: 320px;
+    position:static;float: left;
+    height: 13.5rem;
+    width:17rem;
     border-radius: 4px;
     margin-top:15px;
     margin-left:10px;
@@ -45,15 +45,10 @@ h1{
     background-position: 50%;
     
   }
-  .news-card-image img:hover{
-    
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  }
+  
   .content{
     margin-left:18rem;display: block;padding: 1rem 0.5rem;
   }
-.title{
+  .title{
     font-size: 1rem;font-weight: bold;
-}
+  }
