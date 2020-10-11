@@ -1,0 +1,68 @@
+header{
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 3rem;background-color:rgb(17, 17, 17);padding:0.4rem 0rem
+}
+header .menu1 ul{
+    list-style-type: none;line-height: 3rem;
+}
+.menu1 li{
+    display:inline-block;text-decoration: none;font-size: 15px;line-height: 2.2rem;
+}
+.menu1 li a{
+    color:whitesmoke;padding:0.4rem 0.4rem;text-decoration: none;
+}
+.menu1 a:hover{
+    background-color: whitesmoke;color:black ;border-radius:1px;text-decoration: none;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.menu1 a:active{
+    background-color: whitesmoke;color:black ;border-radius:1px;text-decoration: none;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+#chk{
+    visibility: hidden;
+}
+.hide-btn{
+    opacity: 0;
+}
+.sidebar{
+    top:3rem;
+    position: fixed;
+    width:13rem;
+    transition:.3s;
+    background-color: rgb(17, 17, 17);
+    left:-100%;
+    height: 100%;
+    
+}
+.sidebar li{
+    width: 100%;height: 4rem;line-height: 2rem;
+}
+.sidebar ul li a{
+    display: block;text-align: center;font-size:1rem;
+    text-decoration:none;color: whitesmoke;padding: 0.1rem;
+}
+
+.health{
+    height:3rem;
+}
+#chk:checked~.sidebar{
+    left:0px;transition: 0.5s;
+}
+#chk:checked~.show-btn{
+    opacity: 0;
+}
+#chk:checked~.hide-btn{
+    opacity: 1;
+}
+#chk:checked ~ #container{   
+    width:80%;
+}
+#container{
+    width: 100%;
+}
+.icon{
+    height:7rem;width:5rem;margin-right: 2rem
+}
