@@ -36,7 +36,7 @@
             <div class="sidebar">
             <ul class="menu">
                 <li><a href="news1.php"><img src="https://img.icons8.com/color/48/000000/top-menu.png"/>Home</a></li>
-                <li><a href="buisness.php"><img src="https://img.icons8.com/color/48/000000/refund.png"/>Business</a></li>
+                <li><a href="business.php"><img src="https://img.icons8.com/color/48/000000/refund.png"/>Business</a></li>
                 <li><a href="entertainment.php"><img src="https://img.icons8.com/color/48/000000/movie-projector.png"/>Entertainment</a></li>
                 <li><a href="health.php"><img class="health"src="https://img.icons8.com/plasticine/100/000000/hospital-room.png"/>Health</a></li>
                 <li><a href="science.php"><img src="https://img.icons8.com/color/48/000000/physics.png"/>Science</a></li>
@@ -55,10 +55,10 @@
 	<div id="container">
 		<h1><img src="website.svg" class="icon">InClick</h1>        
         <div style="border-top:0.2rem solid gray;margin:1rem 7rem;border-radius:1rem;box-shadow:0 3px 5px 0 rgba(0,0,0,0.2);"></div>
-        <h1>Entertainment Headlines</h1>
+        <h1>Sports Headlines</h1>
 		<?php
 		$url=file_get_contents
-		("http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=f40e1c479f594c28abc16970483dffc6");
+		("http://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=f40e1c479f594c28abc16970483dffc6");
 		$newsArray=json_decode($url,true);		
 				foreach ($newsArray['articles'] as $news)
 					{					
@@ -75,7 +75,8 @@
 			</div>
 
 			<?php
-				}
+				
+                }
 					
 			?>
 		</div>
