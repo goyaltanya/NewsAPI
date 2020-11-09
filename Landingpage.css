@@ -1,0 +1,304 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+#head{
+    text-align: center;
+    color: cadetblue;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+#thnx{
+    color: palevioletred;
+    
+}
+.ttt{
+    color: black;
+    text-align: left;
+}
+#sss{
+    color: black;
+}
+.lead{
+    color: gray;
+}
+
+.featurette-heading{
+    color: black;
+    
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.top{
+    font-size: 
+    
+}
+footer{
+    font-size: 15px;margin-top:5rem;
+    background-color: rgb(20, 20, 20);width: 100%;
+    
+}
+footer li{list-style-type: none;
+}
+footer i{
+    margin-right: 10px;
+}
+
+footer p,footer a{
+/*    color: rgb(88, 88, 88);*/
+    color: whitesmoke;
+    text-decoration:none;
+}
+footer h2{
+    text-transform: uppercase;color:white;margin-bottom:8px;font-size:24px;
+}
+.sec-1{
+    display: flex;flex-direction: row;justify-content: space-between;padding:30px 10px;
+}
+.link3 span,i{
+/*    color: rgb(83, 83, 83);*/
+    color: whitesmoke;
+}
+.about{
+    width: 40%;
+}
+.about p{
+    text-align: justify;
+}
+.sec-3{
+    display: flex;justify-content:center;height:100px;align-items: center;border-top: 1px solid white;
+}
+.sec-3 li{
+    display:inline-block;width: 50px;height:50px;border-radius: 50%;
+    margin-right:20px;
+    background-color: black;
+    
+}
+
+.col-md-7{
+    color: #E7E7E7;
+}
+
+
+.sec-3 ul li i{
+    font-size:24px;line-height:47px;text-align: center;color: whitesmoke;padding-left:15px;
+}
+.sec-3 ul li:nth-child(1):hover{
+    background: #3B5998;transition:0.3s
+}
+.sec-3 ul li:nth-child(2):hover{
+    background: #55ACEE;transition:0.3s
+}
+.sec-3 ul li:nth-child(3):hover{
+    background: #eb4924;transition:0.3s
+}
+.sec-3 ul li:nth-child(4):hover{
+    background: #3B5998;transition:0.3s
+}
+.sec-3 ul li:nth-child(5):hover{
+    background: #2c4762;transition:0.3s
+}
+.sec-4{
+    background-color: rgb(17, 17, 17);display: flex;justify-content: center;
+    padding:30px;
+}
+.sec-4 p{position:relative;}
+.sec-4 p::after{
+    content: '';display: block;width: 0;height: 2px;
+    position: absolute;right: 0;bottom: -10px;background-color: whitesmoke;transition: all .3s;
+}
+.sec-4 p:hover::after{
+    width: 100%;
+}
+.sec-1 a:hover,.sec-4 a:hover{color:whitesmoke ;transition:0.3s}
+
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+ .testimonials{
+    margin: 50px auto;
+        }
+
+
+.testimonials h1{
+    text-align: center;
+    font-weight: bold;
+    color: cadetblue;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 3px white,
+                 0px 18px 23px white;
+    
+}
+
+.testimonials h1::after
+{
+    content: '';
+    background: cadetblue;
+    display:block;
+    height: 3px;
+    width: 470px;
+    margin: 20px auto 5px;
+    
+}
+
+.testimonials.row{
+  margin: 40px auto; 
+    }
+
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+     border-radius: 100px 0 100px 0;
+}
+
+.profile img{
+    
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 2px solid white;
+}
+
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: grey;
+}
+
+span{
+    font-size: 12px;
+    color:#333;
+}
+
+blockqoute{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockqoute::before{
+    content: '\93';
+    font-size: 50px;
+    position: relative;
+    color: black;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px; 
+}
+
+blockqoute::after{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: black;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+    
+}
+
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+body{
+    font-family: balooo;
+    
+}
